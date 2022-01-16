@@ -22,11 +22,13 @@ This document will guide you to create an application in the developer panel and
 ```
   If it succeeds, it should return a JSON object, containing your authentication code as the value of `code`.
   * Scopes are comma-separated, no spaces. The scopes you can use are documented in [Scopes](./scopes/).
+
 2. Send the user to a browser with the URL:
 ```
 /_gridless/authorize?client_id=AQUA-CLIENTID&code=AUTHCODE&grant_type=code
 ```
   If the user accepts the authorization, it should tell them to return to the app.
+
 3. From your client, make a POST request:
 ```
 /_gridless/claimtoken?client_id=AQUA-CLIENTID&code=AUTHCODE
@@ -35,6 +37,7 @@ This document will guide you to create an application in the developer panel and
 
 ## Errors
 When performing the `claimtoken` step, you may encounter the following errors:
+
 * `Client ID does not exist.`
 * `APPNAMEHERE is a bot. Bot authorization is not supported yet.`
 * `No authorization code given.`
