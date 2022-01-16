@@ -12,14 +12,14 @@
         <meta name="author" content="Aqua Technologies">
       
       
-        <link rel="canonical" href="https://getaqua.github.io/docs/guides/clientdev/authorization/">
+        <link rel="canonical" href="https://getaqua.github.io/docs/reference/gridless/permissions/">
       
       <link rel="icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.1.7">
     
     
       
-        <title>Authorize Clients - Aqua Docs</title>
+        <title>Permissions - Aqua Docs</title>
       
     
     
@@ -68,7 +68,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#authorize_clients" class="md-skip">
+        <a href="#permissions" class="md-skip">
           Skip to content
         </a>
       
@@ -101,7 +101,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Authorize Clients
+              Permissions
             
           </span>
         </div>
@@ -189,8 +189,6 @@
         
   
   
-    
-  
 
 
   
@@ -202,7 +200,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="./" class="md-tabs__link md-tabs__link--active">
+      <a href="../../../guides/clientdev/authorization/" class="md-tabs__link">
         Guides
       </a>
     </li>
@@ -214,6 +212,8 @@
         
   
   
+    
+  
 
 
   
@@ -225,7 +225,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../../reference/gridless/errors/" class="md-tabs__link">
+      <a href="../errors/" class="md-tabs__link md-tabs__link--active">
         Reference
       </a>
     </li>
@@ -334,14 +334,12 @@
 
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
       
       
       
@@ -362,14 +360,12 @@
               
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1" type="checkbox" id="__nav_2_1" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1" type="checkbox" id="__nav_2_1" >
       
       
       
@@ -390,73 +386,11 @@
               
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Authorization
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../../guides/clientdev/authorization/" class="md-nav__link">
         Authorization
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#prerequisites" class="md-nav__link">
-    Prerequisites
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#create_an_application" class="md-nav__link">
-    Create an Application
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#authorization_code_method" class="md-nav__link">
-    Authorization Code Method
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#errors" class="md-nav__link">
-    Errors
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -501,7 +435,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../gridless/starting-gridless/" class="md-nav__link">
+      <a href="../../../guides/gridless/starting-gridless/" class="md-nav__link">
         Starting Gridless
       </a>
     </li>
@@ -528,12 +462,14 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
       
       
       
@@ -554,12 +490,14 @@
               
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1" type="checkbox" id="__nav_3_1" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1" type="checkbox" id="__nav_3_1" checked>
       
       
       
@@ -582,7 +520,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../reference/gridless/errors/" class="md-nav__link">
+      <a href="../errors/" class="md-nav__link">
         Errors
       </a>
     </li>
@@ -596,7 +534,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../reference/gridless/scopes/" class="md-nav__link">
+      <a href="../scopes/" class="md-nav__link">
         Scopes
       </a>
     </li>
@@ -608,11 +546,65 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../../../reference/gridless/permissions/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Permissions
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Permissions
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#flow_permissions" class="md-nav__link">
+    Flow Permissions
+  </a>
+  
+    <nav class="md-nav" aria-label="Flow Permissions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#permission_values" class="md-nav__link">
+    Permission values
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -643,52 +635,80 @@
             <article class="md-content__inner md-typeset">
               
                 
-<a href="https://github.com/getaqua/docs/edit/main/docs/guides/clientdev/authorization.md" title="Edit this page" class="md-content__button md-icon">
+<a href="https://github.com/getaqua/docs/edit/main/docs/reference/gridless/permissions.md" title="Edit this page" class="md-content__button md-icon">
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
 </a>
 
 
-<h1 id="authorize_clients">Authorize Clients<a class="headerlink" href="#authorize_clients" title="Permanent link">&para;</a></h1>
-<p>This document will guide you to create an application in the developer panel and use it to authenticate a client.</p>
-<h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Permanent link">&para;</a></h2>
+<h1 id="permissions">Permissions<a class="headerlink" href="#permissions" title="Permanent link">&para;</a></h1>
+<h2 id="flow_permissions">Flow Permissions<a class="headerlink" href="#flow_permissions" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Permission</th>
+<th>Description</th>
+<th>Applies to endpoints</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>view</code></td>
+<td>View profile information for the Flow<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></td>
+<td><code>getFlow</code></td>
+</tr>
+<tr>
+<td><code>read</code></td>
+<td>Read Content in the Flow</td>
+<td><code>getFlow.content</code></td>
+</tr>
+<tr>
+<td><code>post</code></td>
+<td>Post Content to the Flow</td>
+<td><code>postContent</code></td>
+</tr>
+<tr>
+<td><code>join</code></td>
+<td>Join the Flow.<br />This permission can also have a value of <code>"REQUEST"</code>.<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup></td>
+<td><code>joinFlow</code></td>
+</tr>
+<tr>
+<td><code>delete</code></td>
+<td>Delete Content in the Flow</td>
+<td><code>deleteContent</code> for content the user did not post</td>
+</tr>
+<tr>
+<td><code>pin</code></td>
+<td>Pin Content to the top of the Flow</td>
+<td><code>pinContent</code></td>
+</tr>
+<tr>
+<td><code>update</code></td>
+<td>Change the profile, features, and settings of the Flow</td>
+<td><code>updateFlow</code></td>
+</tr>
+</tbody>
+</table>
+<!-- got a lot more permissions to add >:D -->
+
+<h3 id="permission_values">Permission values<a class="headerlink" href="#permission_values" title="Permanent link">&para;</a></h3>
 <ul>
-<li>A Gridless server to use, such as Aqua at <code>example.org</code>.</li>
-<li>You must be logged in to create applications. If you are not, Gridless will prompt you to log in.</li>
+<li><code>"ALLOW"</code></li>
+<li><code>"DENY"</code></li>
+<li><code>"REQUEST"</code> -- used on the <code>join</code> permission</li>
 </ul>
-<h2 id="create_an_application">Create an Application<a class="headerlink" href="#create_an_application" title="Permanent link">&para;</a></h2>
+<!-- * `"FORCE"` -- used on the `impersonate` permission -->
+
+<div class="footnote">
+<hr />
 <ol>
-<li>At your Gridless server, open your browser to <code>/_gridless/developers</code>. (If you're using <code>example.org</code>, browse to <code>https://example.org/_gridless/developers</code>.)</li>
-<li>Click the "New" button in the top-right corner.</li>
-<li>Input your client's name and select "Client" as the type. Bots are not yet supported.</li>
-<li>Click "Create" to create your app.</li>
-<li>Click on the app on the left side of your screen to see its information. This is where your client ID can be found.</li>
+<li id="fn:1">
+<p>When set to <code>"DENY"</code> on <code>public_permissions</code>, the Flow is considered "private". Attempts to query a private Flow will result in a not-found condition (the query will silently return null).&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p>The <code>"REQUEST"</code> permission value allows the user to <em>request</em> to join the Flow. The <code>join</code> permission has no effect outside of the Flow's <code>public_permissions</code>.&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
 </ol>
-<h2 id="authorization_code_method">Authorization Code Method<a class="headerlink" href="#authorization_code_method" title="Permanent link">&para;</a></h2>
-<ol>
-<li>Using your application's client ID from the developer panel at <code>/_gridless/developers</code>, make a POST request from your client app with the following format:</li>
-</ol>
-<div class="codehilite"><pre><span></span><code>/_gridless/authorize?client_id=AQUA-CLIENTID&amp;scopes=SCOPES&amp;response_type=code
-</code></pre></div>
-
-<p>If it succeeds, it should return a JSON object, containing your authentication code as the value of <code>code</code>.
-  * Scopes are comma-separated, no spaces. The scopes you can use are documented in <a href="./scopes/">Scopes</a>.
-2. Send the user to a browser with the URL:</p>
-<div class="codehilite"><pre><span></span><code>/_gridless/authorize?client_id=AQUA-CLIENTID&amp;code=AUTHCODE&amp;grant_type=code
-</code></pre></div>
-
-<p>If the user accepts the authorization, it should tell them to return to the app.
-3. From your client, make a POST request:</p>
-<div class="codehilite"><pre><span></span><code>/_gridless/claimtoken?client_id=AQUA-CLIENTID&amp;code=AUTHCODE
-</code></pre></div>
-
-<p>If it succeeds, it should return a JSON object with your token as the value of <code>token</code>.</p>
-<h2 id="errors">Errors<a class="headerlink" href="#errors" title="Permanent link">&para;</a></h2>
-<p>When performing the <code>claimtoken</code> step, you may encounter the following errors:
-* <code>Client ID does not exist.</code>
-* <code>APPNAMEHERE is a bot. Bot authorization is not supported yet.</code>
-* <code>No authorization code given.</code>
-* (A JWT error. I didn't program these so I don't know them.)
-* <code>A user is not currently authorizing this app</code> -- This may happen when a user denies your request. Or you formatted it wrong.</p>
+</div>
 
               
             </article>
@@ -702,7 +722,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
         
-        <a href="../../../contributing/change-what/" class="md-footer__link md-footer__link--prev" aria-label="Previous: What to Change" rel="prev">
+        <a href="../scopes/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Scopes" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -711,26 +731,11 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              What to Change
+              Scopes
             </div>
           </div>
         </a>
       
-      
-        
-        <a href="../../gridless/starting-gridless/" class="md-footer__link md-footer__link--next" aria-label="Next: Starting Gridless" rel="next">
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Next
-              </span>
-              Starting Gridless
-            </div>
-          </div>
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
-          </div>
-        </a>
       
     </nav>
   

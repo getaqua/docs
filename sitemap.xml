@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
+         <loc>https://getaqua.github.io/docs/readme/</loc>
+         <lastmod>2022-01-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://getaqua.github.io/docs/contributing/change-what/</loc>
          <lastmod>2022-01-16</lastmod>
          <changefreq>daily</changefreq>
@@ -17,6 +22,11 @@
     </url>
     <url>
          <loc>https://getaqua.github.io/docs/reference/gridless/errors/</loc>
+         <lastmod>2022-01-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://getaqua.github.io/docs/reference/gridless/permissions/</loc>
          <lastmod>2022-01-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
