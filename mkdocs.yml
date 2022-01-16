@@ -50,11 +50,13 @@ theme:
 
 # Extensions
 markdown_extensions:
+  - attr_list
   - admonition
-  - codehilite
   - footnotes
   - meta
   - sane_lists
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
   - mdx_math:
       enable_dollar_delimiter: true
   - toc:
