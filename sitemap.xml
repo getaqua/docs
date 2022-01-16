@@ -1,82 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://mkdocs.peaceiris.com/</loc>
+         <loc>https://getaqua.github.io/docs/contributing/change-what/</loc>
          <lastmod>2022-01-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://mkdocs.peaceiris.com/license/</loc>
+         <loc>https://getaqua.github.io/docs/guides/clientdev/authorization/</loc>
          <lastmod>2022-01-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://mkdocs.peaceiris.com/material-for-mkdocs/</loc>
+         <loc>https://getaqua.github.io/docs/guides/gridless/starting-gridless/</loc>
          <lastmod>2022-01-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://mkdocs.peaceiris.com/extensions/code-hilite/</loc>
+         <loc>https://getaqua.github.io/docs/reference/gridless/errors/</loc>
          <lastmod>2022-01-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://mkdocs.peaceiris.com/extensions/footnote/</loc>
-         <lastmod>2022-01-16</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://mkdocs.peaceiris.com/extensions/mathjax/</loc>
-         <lastmod>2022-01-16</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://mkdocs.peaceiris.com/getting-started/docker/</loc>
-         <lastmod>2022-01-16</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://mkdocs.peaceiris.com/getting-started/download-boilerplate/</loc>
-         <lastmod>2022-01-16</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://mkdocs.peaceiris.com/getting-started/invoke/</loc>
-         <lastmod>2022-01-16</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://mkdocs.peaceiris.com/getting-started/pip/</loc>
-         <lastmod>2022-01-16</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://mkdocs.peaceiris.com/getting-started/pipenv/</loc>
-         <lastmod>2022-01-16</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://mkdocs.peaceiris.com/hosting-and-deployment/aws-amplify-console/</loc>
-         <lastmod>2022-01-16</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://mkdocs.peaceiris.com/hosting-and-deployment/combinations/</loc>
-         <lastmod>2022-01-16</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://mkdocs.peaceiris.com/hosting-and-deployment/github-pages/</loc>
-         <lastmod>2022-01-16</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://mkdocs.peaceiris.com/hosting-and-deployment/gitlab-pages/</loc>
-         <lastmod>2022-01-16</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://mkdocs.peaceiris.com/hosting-and-deployment/netlify/</loc>
+         <loc>https://getaqua.github.io/docs/reference/gridless/scopes/</loc>
          <lastmod>2022-01-16</lastmod>
          <changefreq>daily</changefreq>
     </url>

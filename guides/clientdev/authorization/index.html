@@ -12,19 +12,21 @@
         <meta name="author" content="Aqua Technologies">
       
       
-      <link rel="icon" href="/docs/assets/images/favicon.png">
+        <link rel="canonical" href="https://getaqua.github.io/docs/guides/clientdev/authorization/">
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.1.3">
     
     
       
-        <title>Aqua Docs</title>
+        <title>Authorize Clients - Aqua Docs</title>
       
     
     
-      <link rel="stylesheet" href="/docs/assets/stylesheets/main.edf004c2.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.edf004c2.min.css">
       
         
-        <link rel="stylesheet" href="/docs/assets/stylesheets/palette.e6a45f82.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.e6a45f82.min.css">
         
           
           
@@ -42,7 +44,7 @@
       
     
     
-    <script>__md_scope=new URL("/docs/",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -65,6 +67,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#authorize_clients" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -75,7 +82,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/docs/." title="Aqua Docs" class="md-header__button md-logo" aria-label="Aqua Docs" data-md-component="logo">
+    <a href="../../.." title="Aqua Docs" class="md-header__button md-logo" aria-label="Aqua Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
@@ -94,7 +101,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              Authorize Clients
             
           </span>
         </div>
@@ -172,7 +179,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/docs/contributing/change-what/" class="md-tabs__link">
+      <a href="../../../contributing/change-what/" class="md-tabs__link">
         Contributors
       </a>
     </li>
@@ -181,6 +188,8 @@
       
         
   
+  
+    
   
 
 
@@ -193,7 +202,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/docs/guides/clientdev/authorization/" class="md-tabs__link">
+      <a href="./" class="md-tabs__link md-tabs__link--active">
         Guides
       </a>
     </li>
@@ -216,7 +225,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/docs/reference/gridless/errors/" class="md-tabs__link">
+      <a href="../../../reference/gridless/errors/" class="md-tabs__link">
         Reference
       </a>
     </li>
@@ -248,7 +257,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/docs/." title="Aqua Docs" class="md-nav__button md-logo" aria-label="Aqua Docs" data-md-component="logo">
+    <a href="../../.." title="Aqua Docs" class="md-nav__button md-logo" aria-label="Aqua Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
@@ -305,7 +314,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/docs/contributing/change-what/" class="md-nav__link">
+      <a href="../../../contributing/change-what/" class="md-nav__link">
         What to Change
       </a>
     </li>
@@ -325,12 +334,14 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
       
       
       
@@ -351,12 +362,14 @@
               
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1" type="checkbox" id="__nav_2_1" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1" type="checkbox" id="__nav_2_1" checked>
       
       
       
@@ -377,11 +390,73 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="/docs/guides/clientdev/authorization/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Authorization
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Authorization
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    Prerequisites
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#create_an_application" class="md-nav__link">
+    Create an Application
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#authorization_code_method" class="md-nav__link">
+    Authorization Code Method
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#errors" class="md-nav__link">
+    Errors
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -426,7 +501,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/docs/guides/gridless/starting-gridless/" class="md-nav__link">
+      <a href="../../gridless/starting-gridless/" class="md-nav__link">
         Starting Gridless
       </a>
     </li>
@@ -507,7 +582,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/docs/reference/gridless/errors/" class="md-nav__link">
+      <a href="../../../reference/gridless/errors/" class="md-nav__link">
         Errors
       </a>
     </li>
@@ -521,7 +596,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/docs/reference/gridless/scopes/" class="md-nav__link">
+      <a href="../../../reference/gridless/scopes/" class="md-nav__link">
         Scopes
       </a>
     </li>
@@ -553,8 +628,55 @@
           <div class="md-content" data-md-component="content">
             <article class="md-content__inner md-typeset">
               
-  <h1>404 - Not found</h1>
+                
+<a href="https://github.com/getaqua/docs/edit/main/docs/guides/clientdev/authorization.md" title="Edit this page" class="md-content__button md-icon">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+</a>
 
+
+<h1 id="authorize_clients">Authorize Clients<a class="headerlink" href="#authorize_clients" title="Permanent link">&para;</a></h1>
+<p>This document will guide you to create an application in the developer panel and use it to authenticate a client.</p>
+<h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Permanent link">&para;</a></h2>
+<ul>
+<li>A Gridless server to use, such as Aqua at <code>example.org</code>.</li>
+<li>You must be logged in to create applications. If you are not, Gridless will prompt you to log in.</li>
+</ul>
+<h2 id="create_an_application">Create an Application<a class="headerlink" href="#create_an_application" title="Permanent link">&para;</a></h2>
+<ol>
+<li>At your Gridless server, open your browser to <code>/_gridless/developers</code>. (If you're using <code>example.org</code>, browse to <code>https://example.org/_gridless/developers</code>.)</li>
+<li>Click the "New" button in the top-right corner.</li>
+<li>Input your client's name and select "Client" as the type. Bots are not yet supported.</li>
+<li>Click "Create" to create your app.</li>
+<li>Click on the app on the left side of your screen to see its information. This is where your client ID can be found.</li>
+</ol>
+<h2 id="authorization_code_method">Authorization Code Method<a class="headerlink" href="#authorization_code_method" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Using your application's client ID from the developer panel at <code>/_gridless/developers</code>, make a POST request from your client app with the following format:</li>
+</ol>
+<div class="codehilite"><pre><span></span><code>/_gridless/authorize?client_id=AQUA-CLIENTID&amp;scopes=SCOPES&amp;response_type=code
+</code></pre></div>
+
+<p>If it succeeds, it should return a JSON object, containing your authentication code as the value of <code>code</code>.
+  * Scopes are comma-separated, no spaces. The scopes you can use are documented in <a href="./scopes/">Scopes</a>.
+2. Send the user to a browser with the URL:</p>
+<div class="codehilite"><pre><span></span><code>/_gridless/authorize?client_id=AQUA-CLIENTID&amp;code=AUTHCODE&amp;grant_type=code
+</code></pre></div>
+
+<p>If the user accepts the authorization, it should tell them to return to the app.
+3. From your client, make a POST request:</p>
+<div class="codehilite"><pre><span></span><code>/_gridless/claimtoken?client_id=AQUA-CLIENTID&amp;code=AUTHCODE
+</code></pre></div>
+
+<p>If it succeeds, it should return a JSON object with your token as the value of <code>token</code>.</p>
+<h2 id="errors">Errors<a class="headerlink" href="#errors" title="Permanent link">&para;</a></h2>
+<p>When performing the <code>claimtoken</code> step, you may encounter the following errors:
+* <code>Client ID does not exist.</code>
+* <code>APPNAMEHERE is a bot. Bot authorization is not supported yet.</code>
+* <code>No authorization code given.</code>
+* (A JWT error. I didn't program these so I don't know them.)
+* <code>A user is not currently authorizing this app</code> -- This may happen when a user denies your request. Or you formatted it wrong.</p>
+
+              
             </article>
           </div>
         </div>
@@ -562,6 +684,41 @@
       </main>
       
         <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../../../contributing/change-what/" class="md-footer__link md-footer__link--prev" aria-label="Previous: What to Change" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              What to Change
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../../gridless/starting-gridless/" class="md-footer__link md-footer__link--next" aria-label="Next: Starting Gridless" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Starting Gridless
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -609,10 +766,10 @@
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "/docs/", "features": ["tabs", "navigation.instant", "navigation.tracking", "navigation.tabs", "toc.integrate"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "/docs/assets/javascripts/workers/search.0bbba5b5.min.js"}</script>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["tabs", "navigation.instant", "navigation.tracking", "navigation.tabs", "toc.integrate"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../../assets/javascripts/workers/search.0bbba5b5.min.js"}</script>
     
     
-      <script src="/docs/assets/javascripts/bundle.e1a181d9.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.e1a181d9.min.js"></script>
       
         <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-MML-AM_CHTML"></script>
       
