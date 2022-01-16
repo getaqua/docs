@@ -35,4 +35,9 @@
          <lastmod>2022-01-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
+    <url>
+         <loc>https://getaqua.github.io/docs/reference/gridless-api/flows/</loc>
+         <lastmod>2022-01-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
 </urlset>
