@@ -670,10 +670,9 @@
 <ol>
 <li>Clone the repository. You should have already done that.</li>
 </ol>
-<div class="codehilite"><pre><span></span><code>git clone https://github.com/getaqua/gridless --depth<span class="o">=</span><span class="m">1</span> --branch<span class="o">=</span>main
-<span class="nb">cd</span> gridless
-</code></pre></div>
-
+<pre><code class="language-sh">git clone https://github.com/getaqua/gridless --depth=1 --branch=main
+cd gridless
+</code></pre>
 <ol start="2">
 <li>Create config.yaml. Use the contents of <code>config.yaml.example</code> as your guide, and fill it in as necessary.</li>
 <li>Run <code>DEBUG=gridless:* yarn dev</code>. Wait for Gridless to tell you it's ready before doing anything; it shouldn't take too long.

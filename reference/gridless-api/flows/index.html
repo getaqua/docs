@@ -605,9 +605,43 @@
 
 
 <h1 id="flows_in_the_client_api">Flows in the Client API<a class="headerlink" href="#flows_in_the_client_api" title="Permanent link">&para;</a></h1>
+<h2 id="graphql_endpoints">GraphQL Endpoints<a class="headerlink" href="#graphql_endpoints" title="Permanent link">&para;</a></h2>
 <h3 id="get_flow_by_id">Get Flow by ID<a class="headerlink" href="#get_flow_by_id" title="Permanent link">&para;</a></h3>
-<p><code>QUERY</code>{.query} <code>getFlow(id: String!)</code></p>
-<p>something or other idk</p>
+<p><code class="query">QUERY</code> <code class="highlight"><span class="nx">getFlow</span><span class="p">(</span><span class="nx">id</span>: <span class="kt">String</span><span class="o">!</span><span class="p">)</span></code></p>
+<p><strong>Variables</strong></p>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>id</code></td>
+<td>The ID (//example) or snowflake of the Flow you want to look up.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Returns:</strong> <a href="#flow">Flow</a>; <code>null</code> if private or not found</p>
+<h2 id="types">Types<a class="headerlink" href="#types" title="Permanent link">&para;</a></h2>
+<h3 id="flow">Flow<a class="headerlink" href="#flow" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>id</code></td>
+<td>String</td>
+<td>The Flow's user-friendly ID. It</td>
+</tr>
+</tbody>
+</table>
 
               
             </article>
