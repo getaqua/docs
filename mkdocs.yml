@@ -23,7 +23,7 @@ theme:
     previous: 80 # p
     search: 83 # s
   palette:
-    primary: "blue"
+    primary: "lightblue"
     accent: "purple"
   features:
     - tabs
@@ -31,8 +31,8 @@ theme:
     - navigation.tracking
     - navigation.tabs
     - toc.integrate
-  #font:
-  #text: 'Ubuntu'
+  font:
+    text: Public Sans
   #code: 'Ubuntu Mono'
   #icon:
   #logo: 'images/logo.svg'
@@ -43,6 +43,8 @@ markdown_extensions:
   - admonition
   - codehilite
   - footnotes
+  - meta
+  - sane_lists
   - mdx_math:
       enable_dollar_delimiter: true
   - toc:
@@ -81,3 +83,4 @@ nav:
     - Gridless:
       - Errors: reference/gridless/errors.md
       - Scopes: reference/gridless/scopes.md
+      - Permissions: reference/gridless/permissions.md
