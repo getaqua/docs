@@ -44,9 +44,9 @@ theme:
   font:
     text: Public Sans
   #code: 'Ubuntu Mono'
-  #icon:
-  #logo: 'images/logo.svg'
-  #favicon: 'assets/images/favicon.ico'
+  icon:
+    logo: 'assets/wordmark.png'
+    favicon: 'assets/logo.png'
 
 # Extensions
 markdown_extensions:
