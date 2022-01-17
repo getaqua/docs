@@ -5,7 +5,7 @@ title: What Needs Changing?
 
 For various taxonomies, adding new fields will require adding them in several places. Improvements on the following features may require modifications in these places.
 
-If you're looking for details on various taxonomies, such as what Flows are, perhaps [the Taxonomy page]({{site.base_url}}/docs/taxonomy.md) is worth a look.
+If you're looking for details on various taxonomies, such as what Flows are, perhaps [the Taxonomy page](../reference/taxonomy.md) is worth a look.
 
 ## Flows
 To change the fields on Flows, you may need to change the fields in the following places:
