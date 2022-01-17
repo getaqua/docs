@@ -2,9 +2,11 @@ code.query {
     background-color: #2ECC71;
     color: #000000;
     font-weight: 700;
+    padding: 4px;
 }
 code.mutation {
     background-color: #8E44AD;
     color: #ffffff;
     font-weight: 700;
+    padding: 4px;
 }

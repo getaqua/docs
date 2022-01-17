@@ -44,9 +44,9 @@ theme:
   font:
     text: Public Sans
   #code: 'Ubuntu Mono'
-  icon:
-    logo: 'assets/wordmark.png'
-    favicon: 'assets/logo.png'
+  #icon:
+  logo: 'assets/wordmark.png'
+  favicon: 'assets/logo.png'
 
 # Extensions
 markdown_extensions:
@@ -98,3 +98,7 @@ nav:
       - Errors: reference/gridless/errors.md
       - Scopes: reference/gridless/scopes.md
       - Permissions: reference/gridless/permissions.md
+    - Gridless API:
+      - reference/gridless-api/index.md
+      - Flows: reference/gridless-api/flows.md
+      - Content: reference/gridless-api/content.md
